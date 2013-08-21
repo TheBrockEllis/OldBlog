@@ -1,0 +1,592 @@
+[06-Dec-2012 17:46:06] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required './wp-blog-header.php' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/index.php on line 17
+[12-Dec-2012 20:12:18] PHP Warning:  require_once(Includes/header.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/index.php on line 2
+[12-Dec-2012 20:12:18] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/header.php' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/index.php on line 2
+[13-Dec-2012 21:36:04] PHP Fatal error:  Class 'PostObj' not found in /home1/sharproo/public_html/thebrockellis/Includes/recent_articles.inc on line 19
+[13-Dec-2012 21:37:15] PHP Parse error:  syntax error, unexpected T_PUBLIC, expecting ',' or ';' in /home1/sharproo/public_html/thebrockellis/Includes/posts.inc on line 7
+[13-Dec-2012 21:37:40] PHP Parse error:  syntax error, unexpected '"' in /home1/sharproo/public_html/thebrockellis/Includes/posts.inc on line 64
+[13-Dec-2012 21:38:52] PHP Parse error:  syntax error, unexpected '"' in /home1/sharproo/public_html/thebrockellis/Includes/posts.inc on line 64
+[13-Dec-2012 21:39:06] PHP Fatal error:  Class 'PostObj' not found in /home1/sharproo/public_html/thebrockellis/Includes/recent_articles.inc on line 19
+[13-Dec-2012 21:39:54] PHP Fatal error:  Class 'PostObj' not found in /home1/sharproo/public_html/thebrockellis/Includes/recent_articles.inc on line 20
+[13-Dec-2012 21:40:37] PHP Fatal error:  Using $this when not in object context in /home1/sharproo/public_html/thebrockellis/Includes/recent_articles.inc on line 25
+[13-Dec-2012 22:26:07] PHP Parse error:  syntax error, unexpected $end in /home1/sharproo/public_html/thebrockellis/admin.php on line 84
+[14-Dec-2012 13:17:30] PHP Parse error:  syntax error, unexpected '<' in /home1/sharproo/public_html/thebrockellis/admin.php on line 5
+[14-Dec-2012 13:18:48] PHP Parse error:  syntax error, unexpected '}' in /home1/sharproo/public_html/thebrockellis/admin.php on line 59
+[14-Dec-2012 19:34:53] PHP Parse error:  syntax error, unexpected $end in /home1/sharproo/public_html/thebrockellis/Includes/functions.inc on line 130
+[14-Dec-2012 20:03:36] Getting here!
+[14-Dec-2012 20:03:36] PHP Warning:  Missing argument 1 for PostObj::PostObj(), called in /home1/sharproo/public_html/thebrockellis/admin.php on line 127 and defined in /home1/sharproo/public_html/thebrockellis/Includes/posts.inc on line 11
+[14-Dec-2012 20:03:36] PHP Fatal error:  Call to undefined method PostObj::Create() in /home1/sharproo/public_html/thebrockellis/admin.php on line 132
+[14-Dec-2012 20:04:18] Getting here!
+[14-Dec-2012 20:04:18] PHP Warning:  Missing argument 1 for PostObj::PostObj(), called in /home1/sharproo/public_html/thebrockellis/admin.php on line 127 and defined in /home1/sharproo/public_html/thebrockellis/Includes/posts.inc on line 11
+[14-Dec-2012 20:04:18] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home1/sharproo/public_html/thebrockellis/Includes/posts.inc on line 46
+[14-Dec-2012 20:05:02] Getting here!
+[14-Dec-2012 20:05:02] PHP Warning:  Missing argument 1 for PostObj::PostObj(), called in /home1/sharproo/public_html/thebrockellis/admin.php on line 127 and defined in /home1/sharproo/public_html/thebrockellis/Includes/posts.inc on line 11
+[14-Dec-2012 20:05:02] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home1/sharproo/public_html/thebrockellis/Includes/posts.inc on line 46
+[14-Dec-2012 20:05:16] Getting here!
+[14-Dec-2012 20:05:16] PHP Warning:  Missing argument 1 for PostObj::PostObj(), called in /home1/sharproo/public_html/thebrockellis/admin.php on line 127 and defined in /home1/sharproo/public_html/thebrockellis/Includes/posts.inc on line 11
+[14-Dec-2012 20:05:16] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home1/sharproo/public_html/thebrockellis/Includes/posts.inc on line 46
+[14-Dec-2012 20:06:33] Getting here!
+[14-Dec-2012 20:06:33] PHP Warning:  Missing argument 1 for PostObj::PostObj(), called in /home1/sharproo/public_html/thebrockellis/admin.php on line 127 and defined in /home1/sharproo/public_html/thebrockellis/Includes/posts.inc on line 11
+[14-Dec-2012 20:06:33] Post Obj Insert: INSERT INTO Posts (title, content, image, created)VALUES('','', '', 'NOW()')
+[14-Dec-2012 20:06:33] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home1/sharproo/public_html/thebrockellis/Includes/posts.inc on line 46
+[14-Dec-2012 20:08:01] Getting here!
+[14-Dec-2012 20:08:01] PHP Warning:  Missing argument 1 for PostObj::PostObj(), called in /home1/sharproo/public_html/thebrockellis/admin.php on line 127 and defined in /home1/sharproo/public_html/thebrockellis/Includes/posts.inc on line 11
+[14-Dec-2012 20:08:01] Post Obj Insert: INSERT INTO Posts (title, content, image, created)VALUES('','', '', 'NOW()')
+[14-Dec-2012 20:08:01] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home1/sharproo/public_html/thebrockellis/Includes/posts.inc on line 46
+[14-Dec-2012 20:08:13] Getting here!
+[14-Dec-2012 20:08:13] PHP Warning:  Missing argument 1 for PostObj::PostObj(), called in /home1/sharproo/public_html/thebrockellis/admin.php on line 127 and defined in /home1/sharproo/public_html/thebrockellis/Includes/posts.inc on line 11
+[14-Dec-2012 20:08:13] Post Obj Insert: INSERT INTO Posts (title, content, image, created)VALUES('','', '', 'NOW()')
+[14-Dec-2012 20:08:13] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home1/sharproo/public_html/thebrockellis/Includes/posts.inc on line 46
+[14-Dec-2012 20:09:12] PHP Warning:  Missing argument 1 for PostObj::PostObj(), called in /home1/sharproo/public_html/thebrockellis/admin.php on line 126 and defined in /home1/sharproo/public_html/thebrockellis/Includes/posts.inc on line 11
+[14-Dec-2012 20:09:12] Post Obj Insert: INSERT INTO Posts (title, content, image, created)VALUES(, , , NOW())
+[14-Dec-2012 20:09:26] PHP Warning:  Missing argument 1 for PostObj::PostObj(), called in /home1/sharproo/public_html/thebrockellis/admin.php on line 126 and defined in /home1/sharproo/public_html/thebrockellis/Includes/posts.inc on line 11
+[14-Dec-2012 20:09:26] Post Obj Insert: INSERT INTO Posts (title, content, image, created)VALUES(, , , NOW())
+[14-Dec-2012 20:10:34] PHP Parse error:  syntax error, unexpected T_VAR, expecting T_VARIABLE in /home1/sharproo/public_html/thebrockellis/Includes/posts.inc on line 5
+[14-Dec-2012 20:10:53] PHP Warning:  Missing argument 1 for PostObj::PostObj(), called in /home1/sharproo/public_html/thebrockellis/admin.php on line 126 and defined in /home1/sharproo/public_html/thebrockellis/Includes/posts.inc on line 11
+[14-Dec-2012 20:10:53] Post Obj Insert: INSERT INTO Posts (title, content, image, created)VALUES(, , , NOW())
+[14-Dec-2012 20:15:02] Post Obj Insert: INSERT INTO Posts (title, content, image, created)VALUES(, , , NOW())
+[14-Dec-2012 20:16:23] PHP Fatal error:  Call to undefined function  sanitize() in /home1/sharproo/public_html/thebrockellis/admin.php on line 125
+[14-Dec-2012 20:16:55] title: 
+[14-Dec-2012 20:16:55] Post Obj Insert: INSERT INTO Posts (title, content, image, created)VALUES(, , , NOW())
+[14-Dec-2012 20:22:13] title: 
+[14-Dec-2012 20:22:13] Post Obj Insert: INSERT INTO Posts (title, content, image, created)VALUES(, , , NOW())
+[14-Dec-2012 20:22:21] title: 
+[14-Dec-2012 20:22:21] Post Obj Insert: INSERT INTO Posts (title, content, image, created)VALUES(, , , NOW())
+[14-Dec-2012 20:27:37] title: 
+[14-Dec-2012 20:27:37] Post Obj Insert: INSERT INTO Posts (title, content, image, created)VALUES(, , , NOW())
+[14-Dec-2012 20:30:21] title: Testing
+[14-Dec-2012 20:30:21] PHP Warning:  Missing argument 1 for PostObj::PostObj(), called in /home1/sharproo/public_html/thebrockellis/admin.php on line 128 and defined in /home1/sharproo/public_html/thebrockellis/Includes/posts.inc on line 11
+[14-Dec-2012 20:30:21] Post Obj Insert: INSERT INTO Posts (title, content, image, created)VALUES(, , , NOW())
+[14-Dec-2012 20:30:31] title: Hey
+[14-Dec-2012 20:30:31] PHP Warning:  Missing argument 1 for PostObj::PostObj(), called in /home1/sharproo/public_html/thebrockellis/admin.php on line 128 and defined in /home1/sharproo/public_html/thebrockellis/Includes/posts.inc on line 11
+[14-Dec-2012 20:30:31] Post Obj Insert: INSERT INTO Posts (title, content, image, created)VALUES(, , , NOW())
+[14-Dec-2012 20:31:33] PHP Warning:  Missing argument 1 for PostObj::PostObj(), called in /home1/sharproo/public_html/thebrockellis/admin.php on line 126 and defined in /home1/sharproo/public_html/thebrockellis/Includes/posts.inc on line 11
+[14-Dec-2012 20:31:33] Post Obj Insert: INSERT INTO Posts (title, content, image, created)VALUES($newpost-title, $newpost-content, $newpost-image, NOW())
+[14-Dec-2012 20:31:46] PHP Warning:  Missing argument 1 for PostObj::PostObj(), called in /home1/sharproo/public_html/thebrockellis/admin.php on line 126 and defined in /home1/sharproo/public_html/thebrockellis/Includes/posts.inc on line 11
+[14-Dec-2012 20:31:46] Post Obj Insert: INSERT INTO Posts (title, content, image, created)VALUES($newpost-title, $newpost-content, $newpost-image, NOW())
+[14-Dec-2012 20:32:37] PHP Warning:  Missing argument 1 for PostObj::PostObj(), called in /home1/sharproo/public_html/thebrockellis/admin.php on line 126 and defined in /home1/sharproo/public_html/thebrockellis/Includes/posts.inc on line 11
+[14-Dec-2012 20:32:37] Post Obj Insert: INSERT INTO Posts (title, content, image, created)VALUES(-title, -content, -image, NOW())
+[14-Dec-2012 20:32:37] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home1/sharproo/public_html/thebrockellis/Includes/posts.inc on line 46
+[14-Dec-2012 20:32:46] PHP Warning:  Missing argument 1 for PostObj::PostObj(), called in /home1/sharproo/public_html/thebrockellis/admin.php on line 126 and defined in /home1/sharproo/public_html/thebrockellis/Includes/posts.inc on line 11
+[14-Dec-2012 20:32:46] Post Obj Insert: INSERT INTO Posts (title, content, image, created)VALUES(-title, -content, -image, NOW())
+[14-Dec-2012 20:32:46] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home1/sharproo/public_html/thebrockellis/Includes/posts.inc on line 46
+[14-Dec-2012 21:58:42] PHP Warning:  Missing argument 1 for PostObj::PostObj(), called in /home1/sharproo/public_html/thebrockellis/admin.php on line 126 and defined in /home1/sharproo/public_html/thebrockellis/Includes/posts.inc on line 11
+[14-Dec-2012 21:58:42] Post Obj Insert: INSERT INTO Posts (title, content, image, created)VALUES(-title, -content, -image, NOW())
+[14-Dec-2012 21:59:55] PHP Warning:  Missing argument 1 for PostObj::PostObj(), called in /home1/sharproo/public_html/thebrockellis/admin.php on line 126 and defined in /home1/sharproo/public_html/thebrockellis/Includes/posts.inc on line 11
+[14-Dec-2012 21:59:55] Post Obj Insert: INSERT INTO Posts (title, content, image, created)VALUES(, , , NOW())
+[14-Dec-2012 22:00:07] PHP Warning:  Missing argument 1 for PostObj::PostObj(), called in /home1/sharproo/public_html/thebrockellis/admin.php on line 126 and defined in /home1/sharproo/public_html/thebrockellis/Includes/posts.inc on line 11
+[14-Dec-2012 22:00:07] Post Obj Insert: INSERT INTO Posts (title, content, image, created)VALUES(, , , NOW())
+[14-Dec-2012 22:01:33] PHP Warning:  Missing argument 1 for PostObj::PostObj(), called in /home1/sharproo/public_html/thebrockellis/admin.php on line 129 and defined in /home1/sharproo/public_html/thebrockellis/Includes/posts.inc on line 11
+[14-Dec-2012 22:01:33] Post Obj Insert: INSERT INTO Posts (title, content, image, created)VALUES(test, hello, hi there, NOW())
+[14-Dec-2012 22:01:47] PHP Warning:  Missing argument 1 for PostObj::PostObj(), called in /home1/sharproo/public_html/thebrockellis/admin.php on line 129 and defined in /home1/sharproo/public_html/thebrockellis/Includes/posts.inc on line 11
+[14-Dec-2012 22:01:47] Post Obj Insert: INSERT INTO Posts (title, content, image, created)VALUES(Hi there, hey, ahahaha, NOW())
+[14-Dec-2012 22:02:21] PHP Warning:  Missing argument 1 for PostObj::PostObj(), called in /home1/sharproo/public_html/thebrockellis/admin.php on line 129 and defined in /home1/sharproo/public_html/thebrockellis/Includes/posts.inc on line 11
+[14-Dec-2012 22:02:21] Post Obj Insert: INSERT INTO Posts (title, content, image, created)VALUES('Hi there', 'hey', 'ahahaha', 'NOW()')
+[14-Dec-2012 22:06:11] PHP Warning:  Missing argument 1 for PostObj::PostObj(), called in /home1/sharproo/public_html/thebrockellis/admin.php on line 132 and defined in /home1/sharproo/public_html/thebrockellis/Includes/posts.inc on line 11
+[14-Dec-2012 22:06:11] Post Obj Insert: INSERT INTO Posts (title, content, image, created)VALUES('Hi there', 'hey', 'ahahaha', 'NOW()')
+[14-Dec-2012 22:06:23] PHP Warning:  Missing argument 1 for PostObj::PostObj(), called in /home1/sharproo/public_html/thebrockellis/admin.php on line 132 and defined in /home1/sharproo/public_html/thebrockellis/Includes/posts.inc on line 11
+[14-Dec-2012 22:06:23] Post Obj Insert: INSERT INTO Posts (title, content, image, created)VALUES('Talk', 'of the town', 'Images/Blog/128x128placeholder.png', 'NOW()')
+[14-Dec-2012 22:06:44] PHP Warning:  Missing argument 1 for PostObj::PostObj(), called in /home1/sharproo/public_html/thebrockellis/admin.php on line 132 and defined in /home1/sharproo/public_html/thebrockellis/Includes/posts.inc on line 11
+[14-Dec-2012 22:06:44] Post Obj Insert: INSERT INTO Posts (title, content, image, created)VALUES('Talk', 'of the town', 'Images/Blog/128x128placeholder.png', NOW())
+[14-Dec-2012 22:08:06] PHP Warning:  Missing argument 1 for PostObj::PostObj(), called in /home1/sharproo/public_html/thebrockellis/admin.php on line 132 and defined in /home1/sharproo/public_html/thebrockellis/Includes/posts.inc on line 11
+[14-Dec-2012 22:08:06] Post Obj Insert: INSERT INTO Posts (title, content, image, created)VALUES('Talk', 'of the town', 'Images/Blog/128x128placeholder.png', NOW())
+[14-Dec-2012 22:11:19] PHP Warning:  Missing argument 1 for PostObj::PostObj(), called in /home1/sharproo/public_html/thebrockellis/admin.php on line 132 and defined in /home1/sharproo/public_html/thebrockellis/Includes/posts.inc on line 11
+[14-Dec-2012 22:11:19] Post Obj Insert: INSERT INTO Posts (title, content, image, created)VALUES('Talk', 'of the town', 'Images/Blog/128x128placeholder.png', NOW())
+[14-Dec-2012 22:12:29] PHP Warning:  Missing argument 1 for PostObj::PostObj(), called in /home1/sharproo/public_html/thebrockellis/admin.php on line 132 and defined in /home1/sharproo/public_html/thebrockellis/Includes/posts.inc on line 11
+[14-Dec-2012 22:12:29] Post Obj Insert: INSERT INTO Posts (title, content, image, created)VALUES('Talk', 'of the town', 'Images/Blog/128x128placeholder.png', NOW())
+[14-Dec-2012 22:13:07] PHP Warning:  Missing argument 1 for PostObj::PostObj(), called in /home1/sharproo/public_html/thebrockellis/admin.php on line 132 and defined in /home1/sharproo/public_html/thebrockellis/Includes/posts.inc on line 11
+[14-Dec-2012 22:13:07] Post Obj Insert: INSERT INTO Posts (title, content, image, created)VALUES('Talk', 'of the town', 'Images/Blog/128x128placeholder.png', NOW())
+[14-Dec-2012 22:14:22] PHP Warning:  Missing argument 1 for PostObj::PostObj(), called in /home1/sharproo/public_html/thebrockellis/admin.php on line 132 and defined in /home1/sharproo/public_html/thebrockellis/Includes/posts.inc on line 11
+[14-Dec-2012 22:14:22] Post Obj Insert: INSERT INTO Posts (title, content, image, created)VALUES('Talk', 'of the town', 'Images/Blog/128x128placeholder.png', NOW())
+[14-Dec-2012 22:14:43] PHP Warning:  Missing argument 1 for PostObj::PostObj(), called in /home1/sharproo/public_html/thebrockellis/admin.php on line 132 and defined in /home1/sharproo/public_html/thebrockellis/Includes/posts.inc on line 11
+[14-Dec-2012 22:14:43] Post Obj Insert: INSERT INTO Posts (title, content, image, created)VALUES('Talk', 'of the town', 'Images/Blog/128x128placeholder.png', NOW())
+[14-Dec-2012 22:16:08] PHP Warning:  Missing argument 1 for PostObj::PostObj(), called in /home1/sharproo/public_html/thebrockellis/admin.php on line 132 and defined in /home1/sharproo/public_html/thebrockellis/Includes/posts.inc on line 11
+[14-Dec-2012 22:16:08] Post Obj Insert: INSERT INTO Posts (title, content, image, created)VALUES('Friends', 'is my favorite show ever.', 'Here you go.', NOW())
+[14-Dec-2012 22:19:30] PHP Warning:  Missing argument 1 for PostObj::PostObj(), called in /home1/sharproo/public_html/thebrockellis/admin.php on line 132 and defined in /home1/sharproo/public_html/thebrockellis/Includes/posts.inc on line 11
+[14-Dec-2012 22:19:30] Post Obj Insert: INSERT INTO Posts (title, content, image, created)VALUES('Friends', 'is my favorite show ever.', 'Here you go.', NOW())
+[17-Dec-2012 02:15:14] PHP Warning:  require_once(Includes/header.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/contact.php on line 2
+[17-Dec-2012 02:15:14] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/header.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/contact.php on line 2
+[17-Dec-2012 12:10:19] PHP Warning:  require_once(Includes/header.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 2
+[17-Dec-2012 12:10:19] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/header.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 2
+[17-Dec-2012 16:58:32] PHP Warning:  require_once(Includes/header.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[17-Dec-2012 16:58:32] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/header.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[17-Dec-2012 23:37:10] PHP Warning:  require_once(Includes/header.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/contact.php on line 2
+[17-Dec-2012 23:37:10] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/header.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/contact.php on line 2
+[18-Dec-2012 02:09:05] PHP Warning:  require_once(Includes/header.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[18-Dec-2012 02:09:05] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/header.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[18-Dec-2012 02:09:07] PHP Warning:  require_once(Includes/header.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[18-Dec-2012 02:09:07] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/header.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[18-Dec-2012 08:40:48] PHP Warning:  require_once(Includes/header.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[18-Dec-2012 08:40:48] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/header.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[18-Dec-2012 08:40:52] PHP Warning:  require_once(Includes/header.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[18-Dec-2012 08:40:53] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/header.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[18-Dec-2012 08:40:54] PHP Warning:  require_once(Includes/header.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/contact.php on line 2
+[18-Dec-2012 08:40:54] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/header.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/contact.php on line 2
+[18-Dec-2012 08:40:55] PHP Warning:  require_once(Includes/header.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 2
+[18-Dec-2012 08:40:55] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/header.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 2
+[18-Dec-2012 11:49:18] PHP Warning:  require_once(Includes/header.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 2
+[18-Dec-2012 11:49:18] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/header.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 2
+[18-Dec-2012 16:57:59] PHP Warning:  require_once(Includes/header.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[18-Dec-2012 16:57:59] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/header.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[18-Dec-2012 18:52:51] PHP Warning:  require_once(Includes/header.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[18-Dec-2012 18:52:51] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/header.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[18-Dec-2012 18:52:53] PHP Warning:  require_once(Includes/header.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[18-Dec-2012 18:52:53] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/header.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[18-Dec-2012 21:58:03] PHP Warning:  Missing argument 1 for PostObj::PostObj(), called in /home1/sharproo/public_html/thebrockellis/admin.php on line 132 and defined in /home1/sharproo/public_html/thebrockellis/Includes/posts.inc on line 11
+[18-Dec-2012 22:01:34] PHP Warning:  Missing argument 1 for PostObj::PostObj(), called in /home1/sharproo/public_html/thebrockellis/admin.php on line 132 and defined in /home1/sharproo/public_html/thebrockellis/Includes/posts.inc on line 11
+[18-Dec-2012 22:01:43] PHP Warning:  Missing argument 1 for PostObj::PostObj(), called in /home1/sharproo/public_html/thebrockellis/admin.php on line 132 and defined in /home1/sharproo/public_html/thebrockellis/Includes/posts.inc on line 11
+[18-Dec-2012 22:18:28] PHP Warning:  require_once(../bootstrap/js/jquery.js) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/Includes/functions.inc on line 4
+[18-Dec-2012 22:18:28] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '../bootstrap/js/jquery.js' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/Includes/functions.inc on line 4
+[18-Dec-2012 22:19:14] PHP Warning:  require_once(/../bootstrap/js/jquery.js) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/Includes/functions.inc on line 4
+[18-Dec-2012 22:19:14] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '/../bootstrap/js/jquery.js' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/Includes/functions.inc on line 4
+[18-Dec-2012 22:19:24] PHP Warning:  require_once(/../bootstrap/js/jquery.js) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/Includes/functions.inc on line 4
+[18-Dec-2012 22:19:24] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '/../bootstrap/js/jquery.js' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/Includes/functions.inc on line 4
+[18-Dec-2012 22:19:29] PHP Warning:  require_once(/../bootstrap/js/jquery.js) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/Includes/functions.inc on line 4
+[18-Dec-2012 22:19:29] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '/../bootstrap/js/jquery.js' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/Includes/functions.inc on line 4
+[18-Dec-2012 22:21:08] PHP Warning:  require_once(../bootstrap/js/jquery.js) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/Includes/functions.inc on line 4
+[18-Dec-2012 22:21:08] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '../bootstrap/js/jquery.js' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/Includes/functions.inc on line 4
+[18-Dec-2012 22:21:13] PHP Warning:  require_once(../bootstrap/js/jquery.js) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/Includes/functions.inc on line 4
+[18-Dec-2012 22:21:13] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '../bootstrap/js/jquery.js' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/Includes/functions.inc on line 4
+[18-Dec-2012 22:54:14] Getting here
+[18-Dec-2012 22:54:31] Getting here
+[18-Dec-2012 22:55:53] 
+[18-Dec-2012 22:56:51] 
+[18-Dec-2012 22:58:32] 
+[18-Dec-2012 22:59:06] 25
+[18-Dec-2012 22:59:42] Data: Array
+[18-Dec-2012 23:00:00] Data: Array
+[18-Dec-2012 23:04:59] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/sharproo/public_html/thebrockellis/Includes/functions.inc:6) in /home1/sharproo/public_html/thebrockellis/admin.php on line 160
+[18-Dec-2012 23:09:59] Getting here
+[18-Dec-2012 23:09:59] PHP Fatal error:  Class 'PostObj' not found in /home1/sharproo/public_html/thebrockellis/api.php on line 8
+[18-Dec-2012 23:10:26] Getting here
+[18-Dec-2012 23:10:39] Getting here
+[18-Dec-2012 23:34:29] Getting here 123
+[18-Dec-2012 23:35:13] Getting here 123
+[18-Dec-2012 23:35:43] Getting here 123
+[18-Dec-2012 23:36:55] Getting here 123
+[18-Dec-2012 23:38:21] Getting here 123
+[18-Dec-2012 23:38:27] Getting here 123
+[18-Dec-2012 23:41:08] Getting here 123
+[18-Dec-2012 23:42:21] Getting here 123
+[18-Dec-2012 23:43:25] Getting here 123
+[19-Dec-2012 21:44:16] PHP Warning:  require_once(Includes/header.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[19-Dec-2012 21:44:16] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/header.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[19-Dec-2012 23:54:58] PHP Warning:  require_once(Includes/header.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/contact.php on line 2
+[19-Dec-2012 23:54:58] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/header.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/contact.php on line 2
+[20-Dec-2012 11:57:36] PHP Warning:  require_once(Includes/header.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[20-Dec-2012 11:57:36] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/header.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[20-Dec-2012 14:01:29] PHP Warning:  require_once(Includes/header.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[20-Dec-2012 14:01:29] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/header.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[20-Dec-2012 20:08:27] PHP Warning:  require_once(Includes/header.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[20-Dec-2012 20:08:27] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/header.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[20-Dec-2012 20:59:16] PHP Warning:  require_once(Includes/header.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/contact.php on line 2
+[20-Dec-2012 20:59:16] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/header.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/contact.php on line 2
+[20-Dec-2012 22:17:51] PHP Warning:  require_once(Includes/header.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 2
+[20-Dec-2012 22:17:51] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/header.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 2
+[20-Dec-2012 23:44:03] PHP Warning:  require_once(Includes/header.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/contact.php on line 2
+[20-Dec-2012 23:44:03] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/header.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/contact.php on line 2
+[21-Dec-2012 02:40:50] PHP Warning:  require_once(Includes/header.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[21-Dec-2012 02:40:50] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/header.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[21-Dec-2012 04:37:19] PHP Warning:  require_once(Includes/header.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[21-Dec-2012 04:37:19] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/header.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[21-Dec-2012 06:38:37] PHP Warning:  require_once(Includes/header.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/contact.php on line 2
+[21-Dec-2012 06:38:37] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/header.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/contact.php on line 2
+[21-Dec-2012 07:22:07] PHP Warning:  require_once(Includes/header.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 2
+[21-Dec-2012 07:22:07] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/header.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 2
+[21-Dec-2012 10:06:32] PHP Warning:  require_once(Includes/header.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[21-Dec-2012 10:06:32] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/header.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[21-Dec-2012 14:22:39] PHP Warning:  require_once(Includes/header.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[21-Dec-2012 14:22:39] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/header.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[21-Dec-2012 14:37:11] PHP Warning:  require_once(Includes/header.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/contact.php on line 2
+[21-Dec-2012 14:37:11] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/header.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/contact.php on line 2
+[21-Dec-2012 15:06:50] PHP Warning:  require_once(Includes/header.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 2
+[21-Dec-2012 15:06:50] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/header.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 2
+[21-Dec-2012 17:34:15] PHP Warning:  require_once(Includes/header.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[21-Dec-2012 17:34:15] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/header.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[21-Dec-2012 18:21:22] PHP Warning:  require_once(Includes/header.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[21-Dec-2012 18:21:22] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/header.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[21-Dec-2012 23:09:49] PHP Warning:  require_once(Includes/header.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 2
+[21-Dec-2012 23:09:49] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/header.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 2
+[22-Dec-2012 01:39:54] PHP Warning:  require_once(Includes/header.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[22-Dec-2012 01:39:54] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/header.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[22-Dec-2012 02:31:21] PHP Warning:  require_once(Includes/header.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[22-Dec-2012 02:31:21] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/header.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[22-Dec-2012 12:08:32] PHP Warning:  require_once(Includes/header.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[22-Dec-2012 12:08:32] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/header.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[22-Dec-2012 12:44:35] PHP Warning:  require_once(Includes/header.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[22-Dec-2012 12:44:35] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/header.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[22-Dec-2012 12:57:05] PHP Warning:  require_once(Includes/header.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[22-Dec-2012 12:57:05] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/header.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[22-Dec-2012 12:57:09] PHP Warning:  require_once(Includes/header.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/contact.php on line 2
+[22-Dec-2012 12:57:09] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/header.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/contact.php on line 2
+[22-Dec-2012 12:57:10] PHP Warning:  require_once(Includes/header.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[22-Dec-2012 12:57:10] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/header.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[22-Dec-2012 12:57:12] PHP Warning:  require_once(Includes/header.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[22-Dec-2012 12:57:12] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/header.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[22-Dec-2012 12:57:16] PHP Warning:  require_once(Includes/header.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 2
+[22-Dec-2012 12:57:16] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/header.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 2
+[22-Dec-2012 17:11:15] PHP Warning:  require_once(Includes/header.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[22-Dec-2012 17:11:15] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/header.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[22-Dec-2012 19:52:56] PHP Warning:  require_once(Includes/header.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[22-Dec-2012 19:52:56] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/header.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[23-Dec-2012 13:35:58] PHP Warning:  require_once(Includes/header.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[23-Dec-2012 13:35:58] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/header.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[23-Dec-2012 19:52:45] PHP Warning:  require_once(Includes/header.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/contact.php on line 2
+[23-Dec-2012 19:52:45] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/header.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/contact.php on line 2
+[23-Dec-2012 23:22:54] PHP Warning:  require_once(Includes/header.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[23-Dec-2012 23:22:54] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/header.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[23-Dec-2012 23:26:05] PHP Warning:  require_once(Includes/header.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/contact.php on line 2
+[23-Dec-2012 23:26:05] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/header.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/contact.php on line 2
+[23-Dec-2012 23:37:12] PHP Warning:  require_once(Includes/header.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[23-Dec-2012 23:37:12] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/header.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[24-Dec-2012 11:28:27] PHP Warning:  require_once(Includes/header.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[24-Dec-2012 11:28:27] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/header.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[24-Dec-2012 21:30:02] PHP Warning:  require_once(Includes/functions.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/index.php on line 2
+[24-Dec-2012 21:30:02] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/functions.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/index.php on line 2
+[24-Dec-2012 22:25:48] PHP Warning:  require_once(Includes/functions.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/index.php on line 2
+[24-Dec-2012 22:25:48] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/functions.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/index.php on line 2
+[24-Dec-2012 22:57:53] PHP Warning:  require_once(Includes/functions.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/index.php on line 2
+[24-Dec-2012 22:57:53] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/functions.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/index.php on line 2
+[24-Dec-2012 23:01:54] PHP Warning:  require_once(Includes/functions.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/admin.php on line 3
+[24-Dec-2012 23:01:54] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/functions.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/admin.php on line 3
+[25-Dec-2012 08:20:55] PHP Warning:  require_once(Includes/header.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[25-Dec-2012 08:20:55] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/header.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[25-Dec-2012 10:44:16] PHP Warning:  require_once(Includes/header.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[25-Dec-2012 10:44:16] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/header.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[26-Dec-2012 10:59:46] PHP Warning:  require_once(Includes/header.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[26-Dec-2012 10:59:46] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/header.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[28-Dec-2012 23:19:24] PHP Warning:  require_once(Includes/header.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[28-Dec-2012 23:19:24] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/header.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[29-Dec-2012 03:40:46] PHP Warning:  require_once(Includes/header.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[29-Dec-2012 03:40:46] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/header.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[29-Dec-2012 03:42:35] PHP Warning:  require_once(Includes/header.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[29-Dec-2012 03:42:35] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/header.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[29-Dec-2012 04:20:51] PHP Warning:  require_once(Includes/header.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[29-Dec-2012 04:20:51] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/header.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[29-Dec-2012 11:13:34] PHP Warning:  require_once(Includes/header.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[29-Dec-2012 11:13:34] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/header.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[29-Dec-2012 11:44:28] PHP Warning:  require_once(Includes/header.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[29-Dec-2012 11:44:28] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/header.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[29-Dec-2012 17:36:59] PHP Warning:  require_once(Includes/header.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[29-Dec-2012 17:36:59] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/header.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[29-Dec-2012 18:26:19] PHP Warning:  require_once(Includes/header.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[29-Dec-2012 18:26:19] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/header.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[29-Dec-2012 18:38:12] PHP Warning:  require_once(Includes/header.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[29-Dec-2012 18:38:12] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/header.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog.php on line 2
+[03-Jan-2013 16:38:49] PHP Warning:  require_once(Includes/header.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 2
+[03-Jan-2013 16:38:49] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/header.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 2
+[03-Jan-2013 16:38:59] PHP Warning:  require_once(Includes/header.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 2
+[03-Jan-2013 16:38:59] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/header.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 2
+[03-Jan-2013 16:41:51] PHP Warning:  require_once(Includes/header.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 2
+[03-Jan-2013 16:41:51] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/header.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 2
+[03-Jan-2013 16:42:11] PHP Warning:  require_once(Includes/header.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 2
+[03-Jan-2013 16:42:11] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Includes/header.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 2
+[03-Jan-2013 22:18:29] PHP Parse error:  syntax error, unexpected T_PUBLIC in /home1/sharproo/public_html/thebrockellis/lib/posts.inc on line 69
+[09-Jan-2013 19:14:29] PHP Warning:  Missing argument 1 for PostObj::PostObj(), called in /home1/sharproo/public_html/thebrockellis/admin.php on line 138 and defined in /home1/sharproo/public_html/thebrockellis/lib/posts.inc on line 11
+[09-Jan-2013 19:21:27] PHP Warning:  Missing argument 1 for PostObj::PostObj(), called in /home1/sharproo/public_html/thebrockellis/admin.php on line 138 and defined in /home1/sharproo/public_html/thebrockellis/lib/posts.inc on line 11
+[09-Jan-2013 19:54:39] PHP Fatal error:  Call to undefined function  display_header() in /home1/sharproo/public_html/thebrockellis/admin.php on line 41
+[09-Jan-2013 20:56:25] PHP Fatal error:  Using $this when not in object context in /home1/sharproo/public_html/thebrockellis/lib/functions.inc on line 113
+[09-Jan-2013 21:04:45] PHP Fatal error:  Using $this when not in object context in /home1/sharproo/public_html/thebrockellis/lib/functions.inc on line 113
+[22-Jan-2013 18:11:43] PHP Warning:  Missing argument 1 for PostObj::PostObj(), called in /home1/sharproo/public_html/thebrockellis/admin.php on line 138 and defined in /home1/sharproo/public_html/thebrockellis/lib/posts.inc on line 12
+[22-Jan-2013 18:11:43] Post Obj Insert: INSERT INTO Posts (Title, Slug, Content, Image, Created)VALUES('Hey', '', 'HAHAH', 'afsdf', NOW())
+[22-Jan-2013 18:12:23] PHP Warning:  Missing argument 1 for PostObj::PostObj(), called in /home1/sharproo/public_html/thebrockellis/admin.php on line 138 and defined in /home1/sharproo/public_html/thebrockellis/lib/posts.inc on line 12
+[22-Jan-2013 18:12:23] Post Obj Insert: INSERT INTO Posts (Title, Slug, Content, Image, Created)VALUES('Hey', '', 'HAHAH', 'afsdf', NOW())
+[22-Jan-2013 18:12:35] PHP Warning:  Missing argument 1 for PostObj::PostObj(), called in /home1/sharproo/public_html/thebrockellis/admin.php on line 138 and defined in /home1/sharproo/public_html/thebrockellis/lib/posts.inc on line 12
+[22-Jan-2013 18:12:35] Post Obj Insert: INSERT INTO Posts (Title, Slug, Content, Image, Created)VALUES('asdfsd', '', 'sdfasdf', 'asdfasdf', NOW())
+[22-Jan-2013 18:13:53] PHP Warning:  Missing argument 1 for PostObj::PostObj(), called in /home1/sharproo/public_html/thebrockellis/admin.php on line 138 and defined in /home1/sharproo/public_html/thebrockellis/lib/posts.inc on line 12
+[22-Jan-2013 18:13:53] Post Obj Insert: INSERT INTO Posts (Title, Slug, Content, Image, Created)VALUES('asdfsd', '', 'sdfasdf', 'asdfasdf', NOW())
+[22-Jan-2013 18:14:49] PHP Warning:  Missing argument 1 for PostObj::PostObj(), called in /home1/sharproo/public_html/thebrockellis/admin.php on line 138 and defined in /home1/sharproo/public_html/thebrockellis/lib/posts.inc on line 12
+[22-Jan-2013 18:14:49] Post Obj Insert: INSERT INTO Posts (Title, Slug, Content, Image, Created)VALUES('asdfsd', '', 'sdfasdf', 'asdfasdf', NOW())
+[22-Jan-2013 18:15:11] PHP Warning:  Missing argument 1 for PostObj::PostObj(), called in /home1/sharproo/public_html/thebrockellis/admin.php on line 138 and defined in /home1/sharproo/public_html/thebrockellis/lib/posts.inc on line 12
+[22-Jan-2013 18:15:11] Post Obj Insert: INSERT INTO Posts (Title, Slug, Content, Image, Created)VALUES('asdfsd', '', 'sdfasdf', 'asdfasdf', NOW())
+[22-Jan-2013 18:15:32] PHP Warning:  Missing argument 1 for PostObj::PostObj(), called in /home1/sharproo/public_html/thebrockellis/admin.php on line 138 and defined in /home1/sharproo/public_html/thebrockellis/lib/posts.inc on line 12
+[22-Jan-2013 18:15:32] Post Obj Insert: INSERT INTO Posts (Title, Slug, Content, Image, Created)VALUES('asdfsd', '', 'sdfasdf', 'asdfasdf', NOW())
+[22-Jan-2013 18:16:07] PHP Warning:  Missing argument 1 for PostObj::PostObj(), called in /home1/sharproo/public_html/thebrockellis/admin.php on line 138 and defined in /home1/sharproo/public_html/thebrockellis/lib/posts.inc on line 12
+[22-Jan-2013 18:16:07] Post Obj Insert: INSERT INTO Posts (Title, Slug, Content, Image, Created)VALUES('asdfsd', '', 'sdfasdf', 'asdfasdf', NOW())
+[22-Jan-2013 18:16:53] PHP Warning:  Missing argument 1 for PostObj::PostObj(), called in /home1/sharproo/public_html/thebrockellis/admin.php on line 138 and defined in /home1/sharproo/public_html/thebrockellis/lib/posts.inc on line 12
+[22-Jan-2013 18:16:53] Post Obj Insert: INSERT INTO Posts (Title, Slug, Content, Image, Created)VALUES('asdfsd', '', 'sdfasdf', 'asdfasdf', NOW())
+[22-Jan-2013 18:17:18] PHP Warning:  Missing argument 1 for PostObj::PostObj(), called in /home1/sharproo/public_html/thebrockellis/admin.php on line 138 and defined in /home1/sharproo/public_html/thebrockellis/lib/posts.inc on line 12
+[22-Jan-2013 18:17:18] Post Obj Insert: INSERT INTO Posts (Title, Slug, Content, Image, Created)VALUES('asdfsd', '', 'sdfasdf', 'asdfasdf', NOW())
+[22-Jan-2013 18:19:25] PHP Warning:  Missing argument 1 for PostObj::PostObj(), called in /home1/sharproo/public_html/thebrockellis/admin.php on line 138 and defined in /home1/sharproo/public_html/thebrockellis/lib/posts.inc on line 12
+[22-Jan-2013 18:19:25] Post Obj Insert: INSERT INTO Posts (Title, Slug, Content, Image, Created)VALUES('asdf', '', 'sdfsdf', 'ffff', NOW())
+[22-Jan-2013 18:19:31] PHP Warning:  Missing argument 1 for PostObj::PostObj(), called in /home1/sharproo/public_html/thebrockellis/admin.php on line 138 and defined in /home1/sharproo/public_html/thebrockellis/lib/posts.inc on line 12
+[22-Jan-2013 18:19:31] Post Obj Insert: INSERT INTO Posts (Title, Slug, Content, Image, Created)VALUES('asdf', '', 'sdfsdf', 'ffff', NOW())
+[22-Jan-2013 18:19:41] PHP Warning:  Missing argument 1 for PostObj::PostObj(), called in /home1/sharproo/public_html/thebrockellis/admin.php on line 138 and defined in /home1/sharproo/public_html/thebrockellis/lib/posts.inc on line 12
+[22-Jan-2013 18:19:41] Post Obj Insert: INSERT INTO Posts (Title, Slug, Content, Image, Created)VALUES('asdfasdf', '', 'sdfsdf', 'sdfsdf', NOW())
+[22-Jan-2013 18:19:48] PHP Warning:  Missing argument 1 for PostObj::PostObj(), called in /home1/sharproo/public_html/thebrockellis/admin.php on line 138 and defined in /home1/sharproo/public_html/thebrockellis/lib/posts.inc on line 12
+[22-Jan-2013 18:19:48] Post Obj Insert: INSERT INTO Posts (Title, Slug, Content, Image, Created)VALUES('asdfasdf', '', 'sdfsdf', 'sdfsdf', NOW())
+[22-Jan-2013 18:22:03] PHP Warning:  Missing argument 1 for PostObj::PostObj(), called in /home1/sharproo/public_html/thebrockellis/admin.php on line 138 and defined in /home1/sharproo/public_html/thebrockellis/lib/posts.inc on line 12
+[22-Jan-2013 18:22:03] Post Obj Insert: INSERT INTO Posts (Title, Slug, Content, Image, Created)VALUES('asdfasdf', '', 'sdfsdf', 'sdfsdf', NOW())
+[22-Jan-2013 18:22:15] PHP Warning:  Missing argument 1 for PostObj::PostObj(), called in /home1/sharproo/public_html/thebrockellis/admin.php on line 138 and defined in /home1/sharproo/public_html/thebrockellis/lib/posts.inc on line 12
+[22-Jan-2013 18:22:15] Post Obj Insert: INSERT INTO Posts (Title, Slug, Content, Image, Created)VALUES('sdfsd', '', 'sdf', 'sdfsdf', NOW())
+[28-Jan-2013 21:57:13] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home1/sharproo/public_html/thebrockellis/lib/functions.inc on line 224
+[28-Jan-2013 21:57:23] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home1/sharproo/public_html/thebrockellis/lib/functions.inc on line 224
+[28-Jan-2013 21:57:40] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home1/sharproo/public_html/thebrockellis/lib/functions.inc on line 224
+[28-Jan-2013 21:57:42] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home1/sharproo/public_html/thebrockellis/lib/functions.inc on line 224
+[28-Jan-2013 21:57:48] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home1/sharproo/public_html/thebrockellis/lib/functions.inc on line 224
+[29-Jan-2013 22:03:16] PHP Parse error:  syntax error, unexpected ')', expecting '(' in /home1/sharproo/public_html/thebrockellis/admin.php on line 130
+[29-Jan-2013 22:08:30] HI
+[29-Jan-2013 22:08:59] HI
+[29-Jan-2013 22:09:13] HI
+[29-Jan-2013 22:13:44] 
+[29-Jan-2013 22:16:00] 
+[03-Mar-2013 10:47:44] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home1/sharproo/public_html/thebrockellis/lib/script_begin.inc on line 3
+[08-Mar-2013 00:26:50] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home1/sharproo/public_html/thebrockellis/lib/script_begin.inc on line 3
+[01-Apr-2013 17:51:44] 
+[16-Apr-2013 21:24:21] 
+[16-Apr-2013 21:24:51] 
+[16-Apr-2013 21:31:01] 
+[16-Apr-2013 21:31:22] 
+[16-Apr-2013 21:34:47] 
+[16-Apr-2013 21:35:53] 
+[16-Apr-2013 21:36:17] 
+[16-Apr-2013 21:37:14] 
+[16-Apr-2013 21:37:44] 
+[16-Apr-2013 21:42:37] 
+[16-Apr-2013 21:42:52] 
+[16-Apr-2013 21:48:11] 
+[16-Apr-2013 21:48:21] 
+[16-Apr-2013 21:48:38] 
+[16-Apr-2013 21:51:34] 29
+[16-Apr-2013 21:53:41] 29
+[16-Apr-2013 21:53:41] 
+[16-Apr-2013 21:55:12] PostID: 29
+[16-Apr-2013 21:55:12] File Name: 
+[16-Apr-2013 21:56:57] PostID: 
+[16-Apr-2013 21:56:57] File Name: 
+[16-Apr-2013 21:59:05] PostID: uploadimage_form
+[16-Apr-2013 21:59:05] File Name: 
+[16-Apr-2013 22:01:41] PostID: 29
+[16-Apr-2013 22:01:41] File Name: 
+[16-Apr-2013 22:04:53] PostID: 29
+[16-Apr-2013 22:04:53] File Name: 
+[16-Apr-2013 22:06:46] PostID: 29
+[16-Apr-2013 22:06:46] File Name: 
+[16-Apr-2013 22:07:56] PostID: 29
+[16-Apr-2013 22:07:56] File Name: toro.jpg
+[16-Apr-2013 22:11:36] PHP Parse error:  syntax error, unexpected ';' in /home1/sharproo/public_html/thebrockellis/admin.php on line 139
+[16-Apr-2013 22:12:15] PHP Warning:  move_uploaded_file(images/blog/29) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/admin.php on line 138
+[16-Apr-2013 22:12:15] PHP Warning:  move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move '/var/tmp/phpeKOogH' to 'images/blog/29' in /home1/sharproo/public_html/thebrockellis/admin.php on line 138
+[16-Apr-2013 22:12:15] Stored in: images/blog/29
+[16-Apr-2013 22:14:32] PHP Warning:  move_uploaded_file(assets/blog/29image/jpeg) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/admin.php on line 140
+[16-Apr-2013 22:14:32] PHP Warning:  move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move '/var/tmp/phpiQflGh' to 'assets/blog/29image/jpeg' in /home1/sharproo/public_html/thebrockellis/admin.php on line 140
+[16-Apr-2013 22:14:32] Stored in: images/blog/29image/jpeg
+[16-Apr-2013 22:17:20] Stored in: assets/blog/toro.jpg
+[16-Apr-2013 22:21:43] Stored in: assets/blog/toro.jpg
+[16-Apr-2013 22:21:43] SQL: UPDATE Posts SET Image = assets/blog/toro.jpg WHERE PostID = 29
+[16-Apr-2013 22:24:21] PHP Parse error:  syntax error, unexpected '<' in /home1/sharproo/public_html/thebrockellis/admin.php on line 148
+[16-Apr-2013 22:25:14] Stored in: assets/blog/toro.jpg
+[16-Apr-2013 22:25:14] SQL: UPDATE Posts SET Image = 'assets/blog/toro.jpg' WHERE PostID = 29
+[11-May-2013 21:19:10] PHP Parse error:  syntax error, unexpected ':' in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 39
+[11-May-2013 21:19:57] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ';' in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 47
+[11-May-2013 21:20:32] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created '%m/%e/%Y') FROM Portfolio 
+[11-May-2013 21:26:20] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created '%m/%e/%Y') FROM Portfolio 
+[11-May-2013 21:28:05] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') FROM Portfolio 
+[11-May-2013 21:28:06] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Date not found in MySQL result index 5 in /home1/sharproo/public_html/thebrockellis/lib/functions.inc on line 403
+[11-May-2013 21:31:18] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') FROM Portfolio 
+[11-May-2013 21:31:18] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Date not found in MySQL result index 5 in /home1/sharproo/public_html/thebrockellis/lib/functions.inc on line 403
+[11-May-2013 21:31:18] PHP Fatal error:  Call to undefined function  display_sidebar() in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 45
+[11-May-2013 21:36:48] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') FROM Portfolio 
+[11-May-2013 21:36:48] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Date not found in MySQL result index 5 in /home1/sharproo/public_html/thebrockellis/lib/functions.inc on line 403
+[11-May-2013 21:36:48] PHP Fatal error:  Call to undefined function  display_sidebar() in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 45
+[11-May-2013 21:37:34] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') FROM Portfolio 
+[11-May-2013 21:37:34] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Date not found in MySQL result index 5 in /home1/sharproo/public_html/thebrockellis/lib/functions.inc on line 403
+[11-May-2013 21:37:34] PHP Fatal error:  Call to undefined function  display_sidebar() in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 45
+[11-May-2013 21:38:30] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') FROM Portfolio 
+[11-May-2013 21:38:30] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Date not found in MySQL result index 5 in /home1/sharproo/public_html/thebrockellis/lib/functions.inc on line 403
+[11-May-2013 21:38:30] PHP Fatal error:  Call to undefined function  display_sidebar() in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 45
+[11-May-2013 21:39:04] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') FROM Portfolio 
+[11-May-2013 21:39:04] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Date not found in MySQL result index 5 in /home1/sharproo/public_html/thebrockellis/lib/functions.inc on line 403
+[11-May-2013 21:39:04] PHP Fatal error:  Call to undefined function  display_sidebar() in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 45
+[11-May-2013 21:39:32] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[11-May-2013 21:39:32] PHP Fatal error:  Call to undefined function  display_sidebar() in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 45
+[11-May-2013 21:39:49] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[11-May-2013 21:39:49] PHP Fatal error:  Call to undefined function  display_sidebar() in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 45
+[11-May-2013 21:40:11] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[11-May-2013 21:40:11] PHP Fatal error:  Call to undefined function  display_sidebar() in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 45
+[11-May-2013 21:41:41] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[11-May-2013 21:41:41] PHP Fatal error:  Call to undefined function  display_sidebar() in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 45
+[11-May-2013 21:42:58] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[11-May-2013 21:42:58] PHP Fatal error:  Call to undefined function  display_sidebar() in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 45
+[11-May-2013 21:43:28] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[11-May-2013 21:43:28] PHP Fatal error:  Call to undefined function  display_sidebar() in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 45
+[11-May-2013 21:43:41] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[11-May-2013 21:43:41] PHP Fatal error:  Call to undefined function  display_sidebar() in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 45
+[11-May-2013 21:43:56] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[11-May-2013 21:43:56] PHP Fatal error:  Call to undefined function  display_sidebar() in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 45
+[11-May-2013 21:44:18] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[11-May-2013 21:44:18] PHP Fatal error:  Call to undefined function  display_sidebar() in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 45
+[11-May-2013 21:46:15] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[11-May-2013 21:46:15] PHP Fatal error:  Call to undefined function  display_sidebar() in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 45
+[11-May-2013 21:46:36] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[11-May-2013 21:46:36] PHP Fatal error:  Call to undefined function  display_sidebar() in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 45
+[11-May-2013 21:47:19] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[11-May-2013 21:47:19] PHP Fatal error:  Call to undefined function  display_sidebar() in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 45
+[11-May-2013 21:47:58] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[11-May-2013 21:47:58] PHP Fatal error:  Call to undefined function  display_sidebar() in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 45
+[11-May-2013 21:50:07] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[11-May-2013 21:50:07] PHP Fatal error:  Call to undefined function  display_sidebar() in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 45
+[11-May-2013 21:50:34] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[11-May-2013 21:50:34] PHP Fatal error:  Call to undefined function  display_sidebar() in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 45
+[11-May-2013 21:50:52] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[11-May-2013 21:50:52] PHP Fatal error:  Call to undefined function  display_sidebar() in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 45
+[11-May-2013 21:51:36] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[11-May-2013 21:51:36] PHP Fatal error:  Call to undefined function  display_sidebar() in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 45
+[11-May-2013 21:53:56] PHP Parse error:  syntax error, unexpected T_LNUMBER, expecting ')' in /home1/sharproo/public_html/thebrockellis/lib/functions.inc on line 393
+[11-May-2013 21:54:39] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[11-May-2013 21:54:39] PHP Fatal error:  Call to undefined function  display_sidebar() in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 45
+[11-May-2013 21:55:58] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[11-May-2013 21:55:58] PHP Fatal error:  Call to undefined function  display_sidebar() in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 45
+[11-May-2013 21:56:29] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[11-May-2013 21:56:29] PHP Fatal error:  Call to undefined function  display_sidebar() in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 45
+[11-May-2013 21:57:33] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[11-May-2013 21:57:33] PHP Fatal error:  Call to undefined function  display_sidebar() in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 45
+[11-May-2013 22:04:30] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[11-May-2013 22:04:30] PHP Fatal error:  Call to undefined function  display_sidebar() in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 45
+[11-May-2013 22:05:24] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[11-May-2013 22:05:24] PHP Fatal error:  Call to undefined function  display_sidebar() in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 45
+[11-May-2013 22:05:52] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[11-May-2013 22:05:52] PHP Fatal error:  Call to undefined function  display_sidebar() in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 45
+[11-May-2013 22:07:27] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[11-May-2013 22:07:27] PHP Fatal error:  Call to undefined function  display_sidebar() in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 45
+[11-May-2013 22:08:04] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[11-May-2013 22:08:05] PHP Fatal error:  Call to undefined function  display_sidebar() in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 45
+[11-May-2013 22:08:27] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[11-May-2013 22:08:27] PHP Fatal error:  Call to undefined function  display_sidebar() in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 45
+[11-May-2013 22:08:52] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[11-May-2013 22:08:52] PHP Fatal error:  Call to undefined function  display_sidebar() in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 45
+[11-May-2013 22:10:24] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[11-May-2013 22:10:24] PHP Fatal error:  Call to undefined function  display_sidebar() in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 45
+[11-May-2013 22:12:04] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[11-May-2013 22:12:04] PHP Fatal error:  Call to undefined function  display_sidebar() in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 45
+[11-May-2013 22:12:45] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[11-May-2013 22:12:45] PHP Fatal error:  Call to undefined function  display_sidebar() in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 45
+[11-May-2013 22:13:57] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[11-May-2013 22:13:57] PHP Fatal error:  Call to undefined function  display_sidebar() in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 45
+[11-May-2013 22:14:42] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[11-May-2013 22:14:42] PHP Fatal error:  Call to undefined function  display_sidebar() in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 45
+[12-May-2013 20:25:02] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[12-May-2013 20:25:02] PHP Fatal error:  Call to undefined function  display_sidebar() in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 45
+[12-May-2013 21:11:58] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[12-May-2013 21:11:58] PHP Fatal error:  Call to undefined function  display_sidebar() in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 45
+[12-May-2013 21:12:25] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[12-May-2013 21:12:25] PHP Fatal error:  Call to undefined function  display_sidebar() in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 45
+[12-May-2013 21:12:45] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[12-May-2013 21:12:45] PHP Fatal error:  Call to undefined function  display_sidebar() in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 45
+[12-May-2013 21:13:31] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[12-May-2013 21:13:31] PHP Fatal error:  Call to undefined function  display_sidebar() in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 45
+[12-May-2013 21:15:00] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[12-May-2013 21:15:00] PHP Fatal error:  Call to undefined function  display_sidebar() in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 45
+[12-May-2013 21:16:03] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[12-May-2013 21:16:03] PHP Fatal error:  Call to undefined function  display_sidebar() in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 45
+[12-May-2013 21:17:07] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[12-May-2013 21:17:07] PHP Fatal error:  Call to undefined function  display_sidebar() in /home1/sharproo/public_html/thebrockellis/portfolio.php on line 45
+[12-May-2013 21:17:43] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[12-May-2013 21:23:41] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[12-May-2013 21:24:27] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[12-May-2013 21:26:36] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[12-May-2013 21:26:58] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[12-May-2013 21:27:33] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[12-May-2013 21:29:09] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[12-May-2013 21:29:37] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[12-May-2013 21:29:59] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[12-May-2013 21:31:36] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[12-May-2013 21:33:05] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[12-May-2013 21:33:12] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[12-May-2013 21:33:42] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[12-May-2013 21:34:14] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[12-May-2013 21:35:04] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[12-May-2013 21:36:52] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[12-May-2013 21:37:06] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[12-May-2013 21:38:07] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[12-May-2013 21:38:26] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[12-May-2013 21:39:20] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[12-May-2013 21:39:36] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[12-May-2013 21:41:32] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[12-May-2013 21:42:46] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[12-May-2013 21:42:57] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[12-May-2013 21:43:58] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[12-May-2013 21:44:20] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[12-May-2013 21:45:17] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[12-May-2013 21:46:07] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[12-May-2013 21:46:34] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[12-May-2013 21:47:14] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[12-May-2013 21:47:45] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[12-May-2013 21:48:30] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[12-May-2013 21:48:50] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[12-May-2013 21:49:21] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[12-May-2013 21:49:44] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[12-May-2013 21:50:00] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[13-May-2013 04:20:43] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[14-May-2013 21:12:05] PHP Fatal error:  Cannot redeclare admin_get_portfolio() (previously declared in /home1/sharproo/public_html/thebrockellis/lib/functions.inc:314) in /home1/sharproo/public_html/thebrockellis/lib/functions.inc on line 636
+[14-May-2013 21:13:10] PHP Fatal error:  Class 'PortfolioObj' not found in /home1/sharproo/public_html/thebrockellis/lib/functions.inc on line 448
+[15-May-2013 00:23:12] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[15-May-2013 10:12:21] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[15-May-2013 16:46:51] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[15-May-2013 21:00:36] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[16-May-2013 16:57:34] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[16-May-2013 19:39:30] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[17-May-2013 17:17:41] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[18-May-2013 03:51:33] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[18-May-2013 16:35:47] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[19-May-2013 00:03:04] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[20-May-2013 09:38:06] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[23-May-2013 21:46:40] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[29-May-2013 15:37:55] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[30-May-2013 14:05:27] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[30-May-2013 19:21:18] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[02-Jun-2013 04:04:51] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[02-Jun-2013 14:37:40] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[03-Jun-2013 10:36:46] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[04-Jun-2013 08:47:59] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[07-Jun-2013 15:54:07] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[09-Jun-2013 12:55:38] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[12-Jun-2013 10:50:08] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[12-Jun-2013 11:24:21] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[12-Jun-2013 11:24:45] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[12-Jun-2013 15:27:40] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[12-Jun-2013 19:52:08] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[15-Jun-2013 02:19:06] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[16-Jun-2013 02:58:47] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[18-Jun-2013 14:03:32] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[22-Jun-2013 18:59:11] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[22-Jun-2013 18:59:51] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[24-Jun-2013 05:09:21] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[24-Jun-2013 09:50:41] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[25-Jun-2013 07:24:10] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[29-Jun-2013 06:55:30] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[29-Jun-2013 20:09:41] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[30-Jun-2013 02:40:21] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[01-Jul-2013 18:58:06] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[04-Jul-2013 21:20:15] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[05-Jul-2013 18:42:42] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[06-Jul-2013 01:03:54] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[07-Jul-2013 00:47:14] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[09-Jul-2013 15:11:09] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[11-Jul-2013 17:45:20] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[15-Jul-2013 02:12:57] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[17-Jul-2013 00:12:45] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[18-Jul-2013 20:40:50] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[18-Jul-2013 21:01:16] PHP Parse error:  syntax error, unexpected '<' in /home1/sharproo/public_html/thebrockellis/lib/functions.inc on line 636
+[20-Jul-2013 04:14:32] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[21-Jul-2013 23:48:43] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[22-Jul-2013 16:29:12] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[22-Jul-2013 22:35:55] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[23-Jul-2013 15:35:28] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[26-Jul-2013 01:38:34] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[28-Jul-2013 02:52:38] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[29-Jul-2013 23:07:06] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[30-Jul-2013 07:00:56] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[31-Jul-2013 08:18:31] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[01-Aug-2013 02:05:25] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[01-Aug-2013 14:18:02] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[03-Aug-2013 04:21:19] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[04-Aug-2013 16:33:37] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[06-Aug-2013 12:23:06] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[07-Aug-2013 18:08:34] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[08-Aug-2013 01:20:17] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[09-Aug-2013 19:09:44] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[13-Aug-2013 19:47:54] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[14-Aug-2013 13:39:20] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[15-Aug-2013 04:42:56] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[16-Aug-2013 14:26:24] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 
+[20-Aug-2013 08:25:57] SQL: SELECT Title, Description, Image, Type, Link, DATE_FORMAT(Created, '%m/%e/%Y') as Date FROM Portfolio 

@@ -1,0 +1,384 @@
+[24-Dec-2012 23:07:32] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in /home1/sharproo/public_html/thebrockellis/blog/index.php on line 16
+[24-Dec-2012 23:07:45] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in /home1/sharproo/public_html/thebrockellis/blog/index.php on line 16
+[24-Dec-2012 23:12:04] PHP Parse error:  syntax error, unexpected T_FUNCTION in /home1/sharproo/public_html/thebrockellis/blog/index.php on line 10
+[24-Dec-2012 23:13:02] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required '../lib/functions.php' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog/index.php on line 6
+[28-Dec-2012 15:59:23] Getting here???
+[28-Dec-2012 16:00:00] Getting here???
+[28-Dec-2012 16:00:12] Getting here???
+[29-Dec-2012 10:17:04] Getting here???
+[29-Dec-2012 17:40:02] Getting here???
+[29-Dec-2012 21:44:20] Getting here???
+[29-Dec-2012 21:48:44] Getting here???
+[29-Dec-2012 21:48:58] Getting here???
+[29-Dec-2012 21:49:03] Getting here???
+[29-Dec-2012 21:49:22] Getting here???
+[29-Dec-2012 21:58:17] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'handlers/test_handler.php.php' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog/index.php on line 5
+[29-Dec-2012 21:58:30] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'handlers/test_handler.php.php' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog/index.php on line 5
+[31-Dec-2012 14:59:35] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_FUNCTION in /home1/sharproo/public_html/thebrockellis/blog/handlers/post_handler.php on line 5
+[31-Dec-2012 15:00:04] Getting here!
+[31-Dec-2012 15:00:04] SELECT * FROM Posts WHERE slug = post-about-friends
+[31-Dec-2012 15:00:04] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home1/sharproo/public_html/thebrockellis/lib/functions.inc on line 227
+[31-Dec-2012 15:00:04] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../views/post.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog/handlers/post_handler.php on line 8
+[31-Dec-2012 15:05:47] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home1/sharproo/public_html/thebrockellis/blog/handlers/post_handler.php on line 11
+[31-Dec-2012 15:06:44] Getting here!
+[31-Dec-2012 15:06:44] SELECT * FROM Posts WHERE slug = getting-done-is-a-process
+[31-Dec-2012 15:06:44] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home1/sharproo/public_html/thebrockellis/lib/functions.inc on line 227
+[31-Dec-2012 15:09:58] Getting here!
+[31-Dec-2012 15:09:58] SELECT * FROM Posts WHERE slug = 'post-about-friends' 
+[31-Dec-2012 15:23:33] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '_post.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog/handlers/posts_handler.php on line 10
+[31-Dec-2012 15:23:33] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '_post.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog/handlers/posts_handler.php on line 10
+[31-Dec-2012 15:23:33] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '_post.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog/handlers/posts_handler.php on line 10
+[02-Jan-2013 21:07:07] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '_post.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog/handlers/posts_handler.php on line 10
+[02-Jan-2013 21:07:07] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '_post.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog/handlers/posts_handler.php on line 10
+[02-Jan-2013 21:07:07] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '_post.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog/handlers/posts_handler.php on line 10
+[02-Jan-2013 21:12:08] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../views/_post.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog/handlers/posts_handler.php on line 10
+[02-Jan-2013 21:12:08] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../views/_post.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog/handlers/posts_handler.php on line 10
+[02-Jan-2013 21:12:08] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../views/_post.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog/handlers/posts_handler.php on line 10
+[02-Jan-2013 21:12:18] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../views/_post.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog/handlers/posts_handler.php on line 10
+[02-Jan-2013 21:12:18] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../views/_post.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog/handlers/posts_handler.php on line 10
+[02-Jan-2013 21:12:18] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../views/_post.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog/handlers/posts_handler.php on line 10
+[02-Jan-2013 21:21:34] PHP Warning:  include_once(../views/posts.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/blog/handlers/posts_handler.php on line 5
+[02-Jan-2013 21:21:34] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening '../views/posts.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog/handlers/posts_handler.php on line 5
+[02-Jan-2013 21:22:05] PHP Warning:  include_once(../views/posts.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/blog/handlers/posts_handler.php on line 5
+[02-Jan-2013 21:22:05] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening '../views/posts.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog/handlers/posts_handler.php on line 5
+[02-Jan-2013 21:22:36] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../views/posts.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog/handlers/posts_handler.php on line 5
+[02-Jan-2013 21:23:02] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required '../views/posts.php' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog/handlers/posts_handler.php on line 5
+[02-Jan-2013 21:24:17] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required '../views/posts.php' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog/handlers/posts_handler.php on line 5
+[02-Jan-2013 21:24:23] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required '../views/posts.php' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog/handlers/posts_handler.php on line 5
+[02-Jan-2013 21:24:27] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required '../views/posts.php' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog/handlers/posts_handler.php on line 5
+[02-Jan-2013 21:25:20] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required '../views/posts.php' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog/handlers/posts_handler.php on line 5
+[02-Jan-2013 21:25:51] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required '../views/posts.php' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog/handlers/posts_handler.php on line 5
+[02-Jan-2013 21:26:24] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../views/posts.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog/handlers/posts_handler.php on line 5
+[02-Jan-2013 21:26:33] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../views/posts.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog/handlers/posts_handler.php on line 5
+[02-Jan-2013 21:27:37] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../views/posts.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog/handlers/posts_handler.php on line 5
+[02-Jan-2013 21:27:43] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../views/posts.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog/handlers/posts_handler.php on line 5
+[02-Jan-2013 21:31:20] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../views/posts.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog/handlers/posts_handler.php on line 5
+[02-Jan-2013 21:31:29] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../views/posts.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog/handlers/posts_handler.php on line 5
+[02-Jan-2013 21:33:41] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '/../views/posts.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog/handlers/posts_handler.php on line 5
+[02-Jan-2013 21:34:59] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../views/posts.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog/handlers/posts_handler.php on line 5
+[02-Jan-2013 21:35:38] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required '../../lib/functions.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog/views/posts.php on line 2
+[02-Jan-2013 21:35:55] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required '../../lib/functions.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog/views/posts.php on line 2
+[02-Jan-2013 21:36:56] PHP Fatal error:  Cannot redeclare display_header() (previously declared in /home1/sharproo/public_html/thebrockellis/lib/functions.inc:16) in /home1/sharproo/public_html/thebrockellis/lib/functions.inc on line 26
+[02-Jan-2013 21:39:04] SELECT * FROM Posts WHERE slug = 'post-about-friends' 
+[02-Jan-2013 21:40:37] SELECT * FROM Posts WHERE slug = 'post-about-friends' 
+[02-Jan-2013 21:40:51] SELECT * FROM Posts WHERE slug = 'post-about-friends' 
+[02-Jan-2013 21:42:13] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../views/post.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog/handlers/post_handler.php on line 5
+[02-Jan-2013 21:42:29] PHP Parse error:  syntax error, unexpected ';' in /home1/sharproo/public_html/thebrockellis/blog/views/post.php on line 42
+[02-Jan-2013 21:45:06] SELECT * FROM Posts WHERE slug = 'post-about-friends' 
+[02-Jan-2013 21:45:35] SELECT * FROM Posts WHERE slug = 'blog' 
+[02-Jan-2013 21:45:42] SELECT * FROM Posts WHERE slug = 'blog' 
+[02-Jan-2013 21:46:55] SELECT * FROM Posts WHERE slug = 'blog' 
+[02-Jan-2013 21:47:24] SELECT * FROM Posts WHERE slug = 'post-about-friends' 
+[02-Jan-2013 21:47:41] SELECT * FROM Posts WHERE slug = 'getting-done-is-a-process' 
+[02-Jan-2013 22:02:09] PHP Parse error:  syntax error, unexpected $end in /home1/sharproo/public_html/thebrockellis/lib/functions.inc on line 249
+[02-Jan-2013 22:07:04] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home1/sharproo/public_html/thebrockellis/lib/functions.inc on line 235
+[02-Jan-2013 22:09:28] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home1/sharproo/public_html/thebrockellis/lib/functions.inc on line 235
+[02-Jan-2013 22:10:08] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home1/sharproo/public_html/thebrockellis/lib/functions.inc on line 235
+[02-Jan-2013 22:11:08] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home1/sharproo/public_html/thebrockellis/lib/functions.inc on line 235
+[02-Jan-2013 22:11:22] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home1/sharproo/public_html/thebrockellis/lib/functions.inc on line 235
+[02-Jan-2013 22:17:57] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home1/sharproo/public_html/thebrockellis/lib/functions.inc on line 235
+[02-Jan-2013 22:29:33] Getting to comment handler
+[02-Jan-2013 22:29:33] Insert comment: INSERT INTO PostComments (PostID, Name, Comment)VALUES(24, 'Style', 'Is coming up!')
+[03-Jan-2013 08:06:38] Getting to comment handler
+[03-Jan-2013 08:06:38] Insert comment: INSERT INTO PostComments (PostID, Name, Comment)VALUES(24, 'Wet Willy', 'Hello there!')
+[03-Jan-2013 16:28:48] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home1/sharproo/public_html/thebrockellis/lib/functions.inc on line 235
+[03-Jan-2013 16:29:03] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home1/sharproo/public_html/thebrockellis/lib/functions.inc on line 235
+[03-Jan-2013 21:59:12] PHP Warning:  require_once(../../script_begin.inc) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/thebrockellis/blog/handlers/post_data_handler.php on line 2
+[03-Jan-2013 21:59:12] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '../../script_begin.inc' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/thebrockellis/blog/handlers/post_data_handler.php on line 2
+[03-Jan-2013 22:00:45] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home1/sharproo/public_html/thebrockellis/lib/functions.inc on line 230
+[03-Jan-2013 22:01:15] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home1/sharproo/public_html/thebrockellis/lib/functions.inc on line 230
+[03-Jan-2013 22:02:05] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home1/sharproo/public_html/thebrockellis/lib/functions.inc on line 230
+[03-Jan-2013 22:04:09] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home1/sharproo/public_html/thebrockellis/lib/functions.inc on line 228
+[03-Jan-2013 22:06:04] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home1/sharproo/public_html/thebrockellis/lib/functions.inc on line 228
+[03-Jan-2013 22:08:38] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home1/sharproo/public_html/thebrockellis/lib/functions.inc on line 228
+[03-Jan-2013 22:08:51] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home1/sharproo/public_html/thebrockellis/lib/functions.inc on line 228
+[03-Jan-2013 22:10:37] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home1/sharproo/public_html/thebrockellis/lib/functions.inc on line 228
+[03-Jan-2013 22:11:24] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home1/sharproo/public_html/thebrockellis/lib/functions.inc on line 228
+[03-Jan-2013 22:11:37] Getting to the xhr request
+[03-Jan-2013 22:11:37] SQL: SELECT * FROM Posts WHERE PostID = 24
+[03-Jan-2013 22:12:13] Getting to the xhr request
+[03-Jan-2013 22:12:13] SQL: SELECT * FROM Posts WHERE PostID = 24
+[03-Jan-2013 22:12:28] Getting to the xhr request
+[03-Jan-2013 22:12:28] SQL: SELECT * FROM Posts WHERE PostID = 24
+[03-Jan-2013 22:14:26] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home1/sharproo/public_html/thebrockellis/lib/functions.inc on line 228
+[03-Jan-2013 22:14:30] Getting to the xhr request
+[03-Jan-2013 22:14:30] SQL: SELECT * FROM Posts WHERE PostID = 24
+[03-Jan-2013 22:14:43] Getting to the xhr request
+[03-Jan-2013 22:14:43] SQL: SELECT * FROM Posts WHERE PostID = 24
+[03-Jan-2013 22:15:20] Getting to the xhr request
+[03-Jan-2013 22:15:20] SQL: SELECT * FROM Posts WHERE PostID = 24
+[03-Jan-2013 22:20:04] PHP Fatal error:  Cannot redeclare getpostdata() (previously declared in /home1/sharproo/public_html/thebrockellis/lib/posts.inc:69) in /home1/sharproo/public_html/thebrockellis/lib/posts.inc on line 79
+[03-Jan-2013 22:21:14] PHP Fatal error:  Cannot redeclare getpostdata() (previously declared in /home1/sharproo/public_html/thebrockellis/lib/posts.inc:69) in /home1/sharproo/public_html/thebrockellis/lib/posts.inc on line 79
+[03-Jan-2013 22:24:15] PHP Fatal error:  Cannot redeclare get_post_data() (previously declared in /home1/sharproo/public_html/thebrockellis/lib/posts.inc:69) in /home1/sharproo/public_html/thebrockellis/lib/posts.inc on line 79
+[03-Jan-2013 22:26:27] PHP Parse error:  syntax error, unexpected T_FUNCTION in /home1/sharproo/public_html/thebrockellis/blog/index.php on line 11
+[03-Jan-2013 22:26:58] PHP Fatal error:  Cannot redeclare class PostObj in /home1/sharproo/public_html/thebrockellis/lib/posts.inc on line 3
+[15-Jan-2013 07:46:58] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home1/sharproo/public_html/thebrockellis/lib/functions.inc on line 254
+[15-Jan-2013 07:48:16] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home1/sharproo/public_html/thebrockellis/lib/functions.inc on line 254
+[15-Jan-2013 07:49:34] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home1/sharproo/public_html/thebrockellis/lib/functions.inc on line 254
+[22-Jan-2013 17:57:25] Getting here.
+[22-Jan-2013 17:57:25] Post Obj Delete: DELETE FROM Posts WHERE PostID = 24 
+[22-Jan-2013 18:12:28] Getting here.
+[22-Jan-2013 18:12:28] Post Obj Delete: DELETE FROM Posts WHERE PostID = 30 
+[22-Jan-2013 18:12:40] Getting here.
+[22-Jan-2013 18:12:40] Post Obj Delete: DELETE FROM Posts WHERE PostID = 31 
+[22-Jan-2013 18:15:18] Getting here.
+[22-Jan-2013 18:15:18] Post Obj Delete: DELETE FROM Posts WHERE PostID = 34 
+[22-Jan-2013 18:16:57] Getting here.
+[22-Jan-2013 18:16:57] Post Obj Delete: DELETE FROM Posts WHERE PostID = 37 
+[22-Jan-2013 18:17:15] Getting here.
+[22-Jan-2013 18:17:15] Post Obj Delete: DELETE FROM Posts WHERE PostID = 36 
+[22-Jan-2013 18:17:38] Getting here.
+[22-Jan-2013 18:17:38] Post Obj Delete: DELETE FROM Posts WHERE PostID = 38 
+[22-Jan-2013 18:17:41] Getting here.
+[22-Jan-2013 18:17:41] Post Obj Delete: DELETE FROM Posts WHERE PostID = 35 
+[22-Jan-2013 18:17:44] Getting here.
+[22-Jan-2013 18:17:44] Post Obj Delete: DELETE FROM Posts WHERE PostID = 33 
+[22-Jan-2013 18:17:47] Getting here.
+[22-Jan-2013 18:17:47] Post Obj Delete: DELETE FROM Posts WHERE PostID = 32 
+[22-Jan-2013 18:19:28] Getting here.
+[22-Jan-2013 18:19:28] Post Obj Delete: DELETE FROM Posts WHERE PostID = 39 
+[22-Jan-2013 18:19:34] Getting here.
+[22-Jan-2013 18:19:34] Post Obj Delete: DELETE FROM Posts WHERE PostID = 40 
+[22-Jan-2013 18:19:44] Getting here.
+[22-Jan-2013 18:19:44] Post Obj Delete: DELETE FROM Posts WHERE PostID = 41 
+[22-Jan-2013 18:22:07] Getting here.
+[22-Jan-2013 18:22:07] Post Obj Delete: DELETE FROM Posts WHERE PostID = 43 
+[22-Jan-2013 18:22:09] Getting here.
+[22-Jan-2013 18:22:09] Post Obj Delete: DELETE FROM Posts WHERE PostID = 42 
+[22-Jan-2013 18:22:19] Getting here.
+[22-Jan-2013 18:22:19] Post Obj Delete: DELETE FROM Posts WHERE PostID = 44 
+[22-Jan-2013 18:35:57] Getting to the POST function
+[22-Jan-2013 18:38:49] Getting to the POST function
+[25-Jan-2013 21:11:54] Getting to the POST function
+[25-Jan-2013 21:41:55] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_FUNCTION in /home1/sharproo/public_html/thebrockellis/blog/handlers/posts_data_handler.php on line 4
+[25-Jan-2013 21:54:20] POST has some data
+[25-Jan-2013 21:58:39] PHP Warning:  Missing argument 1 for PostObj::PostObj(), called in /home1/sharproo/public_html/thebrockellis/blog/handlers/posts_data_handler.php on line 17 and defined in /home1/sharproo/public_html/thebrockellis/lib/posts.inc on line 12
+[25-Jan-2013 21:58:39] Post Obj Insert: INSERT INTO Posts (Title, Slug, Content, Image, Created)VALUES('titles', '', 'contet', 'asdfsdf', NOW())
+[25-Jan-2013 21:59:44] Getting here.
+[25-Jan-2013 21:59:44] Post Obj Delete: DELETE FROM Posts WHERE PostID = 45 
+[25-Jan-2013 21:59:59] PHP Warning:  Missing argument 1 for PostObj::PostObj(), called in /home1/sharproo/public_html/thebrockellis/blog/handlers/posts_data_handler.php on line 17 and defined in /home1/sharproo/public_html/thebrockellis/lib/posts.inc on line 12
+[25-Jan-2013 21:59:59] Post Obj Insert: INSERT INTO Posts (Title, Slug, Content, Image, Created)VALUES('Baby Girl', 'mybabygirl', 'is so precious', 'image', NOW())
+[27-Jan-2013 09:36:20] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home1/sharproo/public_html/thebrockellis/lib/functions.inc on line 296
+[28-Jan-2013 21:03:59] UPDATING
+[28-Jan-2013 21:03:59] PHP Catchable fatal error:  Object of class PostObj could not be converted to string in /home1/sharproo/public_html/thebrockellis/lib/posts.inc on line 60
+[28-Jan-2013 21:04:49] UPDATING
+[28-Jan-2013 21:04:49] PHP Catchable fatal error:  Object of class PostObj could not be converted to string in /home1/sharproo/public_html/thebrockellis/lib/posts.inc on line 60
+[28-Jan-2013 21:06:30] UPDATING 46
+[28-Jan-2013 21:06:30] PHP Catchable fatal error:  Object of class PostObj could not be converted to string in /home1/sharproo/public_html/thebrockellis/lib/posts.inc on line 60
+[28-Jan-2013 21:10:08] UPDATING 46
+[28-Jan-2013 21:10:08] Post Obj Update: UPDATE Posts SET Title = 'New Post', Slug = 'slug10', Content = 'Content of post', Created = '2013-01-25 21:59:59', Image = 'Images/Blog/128x128placeholder.png' WHERE PostID = 46
+[28-Jan-2013 21:11:29] UPDATING 46
+[28-Jan-2013 21:11:29] Post Obj Update: UPDATE Posts SET Title = 'New Post', Slug = 'slug2', Content = 'Content of post', Created = '2013-01-25 21:59:59', Image = 'Images/Blog/128x128placeholder.png' WHERE PostID = 46
+[28-Jan-2013 21:14:38] UPDATING 46
+[28-Jan-2013 21:14:38] Post Obj Update: UPDATE Posts SET Title = 'New Post', Slug = 'slug10', Content = 'Content of post', Created = '2013-01-25 21:59:59', Image = 'Images/Blog/128x128placeholder.png' WHERE PostID = 46
+[28-Jan-2013 21:16:55] UPDATING 46
+[28-Jan-2013 21:16:55] Post Obj Update: UPDATE Posts SET Title = 'New Post', Slug = 'slug10', Content = 'Content of post', Created = '2013-01-25 21:59:59', Image = 'Images/Blog/128x128placeholder.png' WHERE PostID = 46
+[28-Jan-2013 21:17:53] UPDATING 46
+[28-Jan-2013 21:17:53] Post Obj Update: UPDATE Posts SET Title = 'New Post', Slug = 'slug10', Content = 'Content of post', Created = '2013-01-25 21:59:59', Image = 'Images/Blog/128x128placeholder.png' WHERE PostID = 46
+[28-Jan-2013 21:19:28] UPDATING 46
+[28-Jan-2013 21:19:28] asdfasdfsdfs
+[28-Jan-2013 21:19:28] Post Obj Update: UPDATE Posts SET Title = 'New Post', Slug = 'slug9', Content = 'Content of post', Created = '2013-01-25 21:59:59', Image = 'Images/Blog/128x128placeholder.png' WHERE PostID = 46
+[28-Jan-2013 21:20:37] UPDATING 46
+[28-Jan-2013 21:20:37] Post Obj Update: UPDATE Posts SET Title = 'My Baby Girl', Slug = 'MyBabyGirl', Content = 'Is so beautiful.', Created = '2013-01-25 21:59:59', Image = 'Images/Blog/128x128placeholder.png' WHERE PostID = 46
+[28-Jan-2013 21:22:00] UPDATING 46
+[28-Jan-2013 21:22:00] Post Obj Update: UPDATE Posts SET Title = 'My Baby Girl love', Slug = 'MyBabyGirl', Content = 'Is so beautiful.', Created = '2013-01-25 21:59:59', Image = 'Images/Blog/128x128placeholder.png' WHERE PostID = 46
+[28-Jan-2013 21:23:40] UPDATING 46
+[28-Jan-2013 21:23:40] Post Obj Update: UPDATE Posts SET Title = 'My Baby Girl', Slug = 'MyBabyGirl', Content = 'Is so beautiful.', Created = '2013-01-25 21:59:59', Image = 'Images/Blog/128x128placeholder.png' WHERE PostID = 46
+[28-Jan-2013 21:24:28] UPDATING 46
+[28-Jan-2013 21:24:28] Post Obj Update: UPDATE Posts SET Title = 'Baby Girl', Slug = 'BabyGirl', Content = 'Is so beautiful.', Created = '2013-01-25 21:59:59', Image = 'Images/Blog/128x128placeholder.png' WHERE PostID = 46
+[28-Jan-2013 21:25:05] UPDATING 46
+[28-Jan-2013 21:25:05] Post Obj Update: UPDATE Posts SET Title = 'My Baby Girl', Slug = 'My BabyGirl', Content = 'Is so beautiful.', Created = '2013-01-25 21:59:59', Image = 'Images/Blog/128x128placeholder.png' WHERE PostID = 46
+[28-Jan-2013 21:25:45] PHP Warning:  Missing argument 1 for PostObj::PostObj(), called in /home1/sharproo/public_html/thebrockellis/blog/handlers/posts_data_handler.php on line 21 and defined in /home1/sharproo/public_html/thebrockellis/lib/posts.inc on line 12
+[28-Jan-2013 21:25:45] Post Obj Insert: INSERT INTO Posts (Title, Slug, Content, Image, Created)VALUES('Honey Boo Boo', 'HoneyBooBoo', 'Really scares me. I feel super guilt for watching it because I judge people sooooo hard.', 'Images/Blog/128x128placeholder.png', NOW())
+[28-Jan-2013 21:26:51] PHP Warning:  Missing argument 1 for PostObj::PostObj(), called in /home1/sharproo/public_html/thebrockellis/blog/handlers/posts_data_handler.php on line 21 and defined in /home1/sharproo/public_html/thebrockellis/lib/posts.inc on line 12
+[28-Jan-2013 21:26:51] Post Obj Insert: INSERT INTO Posts (Title, Slug, Content, Image, Created)VALUES('My farts smell.', 'Oi', 'Yeah, so bad.', 'Images/Blog/128x128placeholder.png', NOW())
+[28-Jan-2013 21:27:00] DELETING.
+[28-Jan-2013 21:27:00] Post Obj Delete: DELETE FROM Posts WHERE PostID = 48 
+[28-Jan-2013 22:03:56] Post Obj Update: UPDATE Posts SET Title = 'Honey Boo Boo jbb;k', Slug = 'HoneyBooBoo', Content = 'Really scares me. I feel super guilt for watching it because I judge people sooooo hard.', Created = '2013-01-28 21:25:45', Image = 'Images/Blog/128x128placeholder.png' WHERE PostID = 47
+[28-Jan-2013 22:18:29] Getting to comment handler
+[28-Jan-2013 22:18:29] Insert comment: INSERT INTO PostComments (PostID, Name, Comment)VALUES(29, 'Carlos', 'You suck!')
+[28-Jan-2013 22:18:29] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/sharproo/public_html/thebrockellis/blog/handlers/posts_data_handler.php:32) in /home1/sharproo/public_html/thebrockellis/blog/handlers/comment_handler.php on line 10
+[28-Jan-2013 22:19:57] Getting to comment handler
+[28-Jan-2013 22:19:57] Insert comment: INSERT INTO PostComments (PostID, Name, Comment)VALUES(29, 'Jimmy', 'Time to go!')
+[28-Jan-2013 22:19:57] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/sharproo/public_html/thebrockellis/blog/handlers/posts_data_handler.php:32) in /home1/sharproo/public_html/thebrockellis/blog/handlers/comment_handler.php on line 10
+[29-Jan-2013 11:48:31] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home1/sharproo/public_html/thebrockellis/lib/functions.inc on line 299
+[29-Jan-2013 13:16:27] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home1/sharproo/public_html/thebrockellis/lib/functions.inc on line 299
+[30-Jan-2013 09:05:40] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home1/sharproo/public_html/thebrockellis/lib/functions.inc on line 336
+[14-Feb-2013 05:01:58] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home1/sharproo/public_html/thebrockellis/lib/functions.inc on line 343
+[15-Feb-2013 08:48:27] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home1/sharproo/public_html/thebrockellis/lib/functions.inc on line 343
+[15-Feb-2013 14:06:16] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home1/sharproo/public_html/thebrockellis/lib/functions.inc on line 343
+[15-Feb-2013 19:23:55] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home1/sharproo/public_html/thebrockellis/lib/functions.inc on line 343
+[12-Mar-2013 06:41:53] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home1/sharproo/public_html/thebrockellis/lib/functions.inc on line 343
+[12-Mar-2013 06:41:54] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home1/sharproo/public_html/thebrockellis/lib/functions.inc on line 343
+[12-Mar-2013 06:41:54] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home1/sharproo/public_html/thebrockellis/lib/functions.inc on line 343
+[29-Mar-2013 12:04:04] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home1/sharproo/public_html/thebrockellis/lib/functions.inc on line 343
+[29-Mar-2013 12:04:07] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home1/sharproo/public_html/thebrockellis/lib/functions.inc on line 343
+[29-Mar-2013 12:04:10] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home1/sharproo/public_html/thebrockellis/lib/functions.inc on line 343
+[29-Mar-2013 12:04:15] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home1/sharproo/public_html/thebrockellis/lib/functions.inc on line 343
+[29-Mar-2013 12:04:19] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home1/sharproo/public_html/thebrockellis/lib/functions.inc on line 343
+[29-Mar-2013 12:04:22] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home1/sharproo/public_html/thebrockellis/lib/functions.inc on line 343
+[31-Mar-2013 05:28:55] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home1/sharproo/public_html/thebrockellis/lib/functions.inc on line 343
+[01-Apr-2013 18:41:58] PHP Warning:  date_format() expects parameter 1 to be DateTime, string given in /home1/sharproo/public_html/thebrockellis/blog/views/_postpreview.php on line 22
+[01-Apr-2013 18:43:16] PHP Warning:  date_format() expects parameter 1 to be DateTime, string given in /home1/sharproo/public_html/thebrockellis/blog/views/_postpreview.php on line 22
+[01-Apr-2013 21:01:18] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home1/sharproo/public_html/thebrockellis/lib/functions.inc on line 324
+[01-Apr-2013 21:02:48] SQL: SELECT p.*, pc.COUNT(*) AS Count FROM Posts p, PostComments pc WHERE p.PostID = pc.PostID ORDER BY PostID DESC
+[01-Apr-2013 21:02:48] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home1/sharproo/public_html/thebrockellis/lib/functions.inc on line 325
+[01-Apr-2013 21:42:59] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostCommens ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY PostID DESC
+[01-Apr-2013 21:42:59] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home1/sharproo/public_html/thebrockellis/lib/functions.inc on line 326
+[01-Apr-2013 21:43:45] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[01-Apr-2013 21:45:32] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[01-Apr-2013 21:46:23] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[01-Apr-2013 21:46:23] PHP Parse error:  syntax error, unexpected '[' in /home1/sharproo/public_html/thebrockellis/blog/views/_postpreview.php on line 13
+[01-Apr-2013 21:46:53] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[01-Apr-2013 21:47:46] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[01-Apr-2013 21:48:28] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[02-Apr-2013 08:52:34] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[03-Apr-2013 01:22:33] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[03-Apr-2013 01:22:39] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[03-Apr-2013 01:59:30] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[05-Apr-2013 04:46:40] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[05-Apr-2013 04:46:40] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[05-Apr-2013 10:03:33] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[05-Apr-2013 10:18:33] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[06-Apr-2013 05:10:22] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[06-Apr-2013 14:35:36] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[08-Apr-2013 06:37:10] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[08-Apr-2013 07:27:40] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[10-Apr-2013 05:08:38] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[13-Apr-2013 04:56:00] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[14-Apr-2013 17:09:38] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home1/sharproo/public_html/thebrockellis/lib/functions.inc on line 345
+[15-Apr-2013 14:01:58] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[15-Apr-2013 14:17:11] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[16-Apr-2013 00:36:37] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home1/sharproo/public_html/thebrockellis/lib/functions.inc on line 345
+[16-Apr-2013 21:23:18] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[16-Apr-2013 21:24:31] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[16-Apr-2013 21:25:13] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[16-Apr-2013 21:39:17] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[16-Apr-2013 22:25:38] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[16-Apr-2013 22:29:11] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[16-Apr-2013 22:29:30] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[16-Apr-2013 22:51:55] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[17-Apr-2013 06:25:11] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[17-Apr-2013 16:06:20] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[17-Apr-2013 16:06:41] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[18-Apr-2013 10:58:49] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[18-Apr-2013 10:59:08] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[19-Apr-2013 09:18:43] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[19-Apr-2013 09:19:16] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[19-Apr-2013 09:34:47] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[20-Apr-2013 06:25:06] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[20-Apr-2013 11:19:59] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[22-Apr-2013 00:20:22] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[22-Apr-2013 14:22:50] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[25-Apr-2013 15:31:54] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[26-Apr-2013 13:31:07] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[27-Apr-2013 17:21:30] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[27-Apr-2013 20:06:52] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[27-Apr-2013 22:58:54] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[28-Apr-2013 15:42:29] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[04-May-2013 08:42:37] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[05-May-2013 04:13:06] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[06-May-2013 09:20:21] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[08-May-2013 10:33:18] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[09-May-2013 22:52:43] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[10-May-2013 08:37:52] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[10-May-2013 14:46:49] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[10-May-2013 21:35:11] PHP Warning:  Missing argument 1 for PostObj::PostObj(), called in /home1/sharproo/public_html/thebrockellis/blog/handlers/posts_data_handler.php on line 21 and defined in /home1/sharproo/public_html/thebrockellis/lib/posts.inc on line 12
+[10-May-2013 21:38:02] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[10-May-2013 21:44:32] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[10-May-2013 21:45:06] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[10-May-2013 21:46:28] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[10-May-2013 21:48:28] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[10-May-2013 21:50:07] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[10-May-2013 21:50:50] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[10-May-2013 21:51:10] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[10-May-2013 21:52:09] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[11-May-2013 21:48:41] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[13-May-2013 04:58:45] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[13-May-2013 23:34:09] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[14-May-2013 13:10:14] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[14-May-2013 21:45:49] PHP Warning:  Missing argument 1 for PostObj::PostObj(), called in /home1/sharproo/public_html/thebrockellis/blog/handlers/posts_data_handler.php on line 21 and defined in /home1/sharproo/public_html/thebrockellis/lib/posts.inc on line 12
+[15-May-2013 10:12:17] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[15-May-2013 16:46:38] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[15-May-2013 20:59:25] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[15-May-2013 23:06:56] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[17-May-2013 23:29:59] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[18-May-2013 15:23:21] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[18-May-2013 15:23:25] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[18-May-2013 16:35:49] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[20-May-2013 09:36:34] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[20-May-2013 21:44:03] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[21-May-2013 01:53:03] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[21-May-2013 06:36:35] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[21-May-2013 22:25:04] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[28-May-2013 16:58:20] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[29-May-2013 22:03:16] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[29-May-2013 22:35:52] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[30-May-2013 22:44:32] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[31-May-2013 13:55:51] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[01-Jun-2013 22:58:47] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[03-Jun-2013 10:40:07] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[05-Jun-2013 05:01:10] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[05-Jun-2013 08:37:15] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[05-Jun-2013 22:08:22] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[06-Jun-2013 04:02:23] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[06-Jun-2013 09:38:38] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[07-Jun-2013 14:01:28] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[08-Jun-2013 05:33:39] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[08-Jun-2013 22:10:46] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[09-Jun-2013 12:55:40] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[10-Jun-2013 15:32:40] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[12-Jun-2013 11:24:47] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[12-Jun-2013 19:55:29] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[13-Jun-2013 15:56:42] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[14-Jun-2013 20:32:52] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[15-Jun-2013 12:45:22] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[16-Jun-2013 02:58:43] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[16-Jun-2013 10:24:27] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[16-Jun-2013 22:53:34] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[17-Jun-2013 23:51:04] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[20-Jun-2013 02:36:13] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[21-Jun-2013 23:34:21] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[22-Jun-2013 22:43:57] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[23-Jun-2013 00:25:44] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[23-Jun-2013 22:52:14] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[30-Jun-2013 05:17:34] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[01-Jul-2013 21:30:43] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[02-Jul-2013 21:00:59] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[03-Jul-2013 12:34:54] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[04-Jul-2013 10:03:51] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[04-Jul-2013 20:56:57] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[06-Jul-2013 01:03:56] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[08-Jul-2013 02:24:50] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[10-Jul-2013 01:18:12] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[13-Jul-2013 08:09:44] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[15-Jul-2013 02:12:53] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[15-Jul-2013 07:41:46] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[18-Jul-2013 15:31:08] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[18-Jul-2013 15:31:34] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[20-Jul-2013 03:37:59] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[20-Jul-2013 08:32:35] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[22-Jul-2013 18:42:38] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[22-Jul-2013 18:43:32] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[24-Jul-2013 04:21:59] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[24-Jul-2013 20:54:42] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[24-Jul-2013 23:40:22] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[26-Jul-2013 03:18:27] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[28-Jul-2013 02:52:38] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[28-Jul-2013 02:53:04] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[29-Jul-2013 23:25:30] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[29-Jul-2013 23:57:28] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[30-Jul-2013 09:04:57] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[01-Aug-2013 14:17:50] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[02-Aug-2013 19:22:11] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[04-Aug-2013 16:33:45] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[05-Aug-2013 02:35:52] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[08-Aug-2013 17:51:44] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[09-Aug-2013 22:49:02] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[11-Aug-2013 19:37:54] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[12-Aug-2013 18:14:30] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[12-Aug-2013 19:47:38] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[15-Aug-2013 04:42:52] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[15-Aug-2013 18:20:08] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[16-Aug-2013 14:13:05] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
+[17-Aug-2013 03:19:07] SQL: SELECT p.*, COUNT(pc.PostCommentID) AS Count FROM Posts p LEFT JOIN PostComments pc ON p.PostID = pc.PostID GROUP BY p.PostID ORDER BY p.PostID DESC
