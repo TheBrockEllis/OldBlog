@@ -6,7 +6,7 @@ require_once("lib/functions.inc");
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Blog | The Brock Ellis</title>
+    <title>Blog | @TheBrockEllis</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -32,12 +32,12 @@ require_once("lib/functions.inc");
   <body>
 
     <?php display_header(); ?>
-  
+
     <div class="container">
     </div> <!-- /container -->
 
     <?php display_footer(); ?>
-    
+
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
